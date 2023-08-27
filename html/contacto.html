@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <title>Document</title>
 </head>
-<body>
-    <nav  class="navbar navbar-expand-lg bg-warning">
+<body class="fondoContacto">
+    <nav  class="navbar navbar-expand-lg bg-info background-header">
         <div class="container-fluid ">
           <a class="navbar-brand text-center" href="#">ALEJO JEWERLY</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +35,40 @@
           </div>
         </div>
       </nav>
+      <main class="fondoContacto">
+        <div class="contenedorIconContacto">
+          <a class="iconContacto1" href="contacto.html"> 
+            <img class="iconContacto2" src="../imagenes/facebook-logo-icone.png" alt="">
+          </a>
+          <a href="contacto.html"> 
+            <img class="iconContactoIg" src="../imagenes/Instagram-Logo-2016.png" alt="">
+          </a>
+          <a class="iconContacto1" href="contacto.html"> 
+            <img class="iconContacto2" src="../imagenes/WhatsApp_logo-color-vertical.svg.png" alt="">
+          </a>
+        </div>
+        
+        <form action="https://formspree.io/f/xknlryyz" method="post">
+          <div class="formularioContacto">
+            <div class="camposContacto mb-3">
+              <label for="email" class="form-label">Correo Electronico</label>
+              <input name="Email" type="email" id="email" class="form-control"  placeholder="joyasaiz@ejemplo.com">
+            </div>
+            <div class="camposContacto mb-3">
+              <label type="email" name="email" for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <input value="Enviar" class="camposContacto btn btn-primary" type="submit"></input>
+            </div>
+          </div>
+        </form>
+        
+        
+      </main>
+      <footer class=" background-header">
+        <div class="contenedorFooter">
+          <p>ALEJO AIZPITARTE JEWERLY 2023</p>
+        </div>
+    </footer>
       <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

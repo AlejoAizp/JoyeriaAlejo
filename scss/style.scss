@@ -1,0 +1,240 @@
+main, section {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedorVideo {
+    line-height: 0;
+  }
+  
+  .videoJoyas {
+    height: 100%;
+    width: 100%;
+    line-height: 0;
+  }
+  
+  .contenedorTextoInicio {
+    font-size: 2vw;
+    color: black;
+    background-color: #FFF5D1;
+    z-index: 1;
+    display: grid;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  footer {
+    display: grid;
+    justify-content: center;
+  }
+  
+  .contenedorTituloSection {
+    padding: 0;
+    margin-top: 0;
+    background-color: #FFF5D1;
+    z-index: 1;
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .avisoOferta {
+    padding: 0;
+    margin-top: 0;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(222, 81, 99, 1) 0%, rgba(221, 19, 9, 1) 92%);
+    background-position: 50%;
+    z-index: 1;
+    color: black;
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+  }
+  
+  .textoOferta {
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .contenedorPresentacionSection {
+    display: grid;
+    flex-direction: row;
+    text-align: center;
+    font-size: 30px;
+    background-color: #FFF5D1;
+  }
+  
+  .winterIcon {
+    width: 3%;
+  }
+  
+  .formularioContacto {
+    display: grid;
+    justify-content: center;
+  }
+  
+  .camposContacto {
+    width: 40vw;
+  }
+  
+  .botonCompra {
+    width: 50px;
+  }
+  
+  .fondoContacto, .fondoComprar {
+    background-color: #2fbff5;
+  }
+  
+  footer {
+    background-color: #FFF5D1;
+  }
+  
+  .contenedorFooter {
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .background-header {
+    background-image: url('../imagenes/10612553_4513901.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+  }
+  
+  .background-winter {
+    background-image: url('../imagenes/23320-invierno.jpg');
+    background-repeat: no-repeat;
+  }
+  
+  .contenedorIconContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  
+  .contenedorIconCompra {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25vw;
+  }
+  
+  .iconContacto1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconContacto2 {
+    width: 17vw;
+    height: 17vw;
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.5s;
+  
+    &:hover {
+      width: 20vw;
+      height: 20vw;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  .iconContactoIg {
+    width: 32vw;
+    transition-duration: 0.5s;
+  
+    &:hover {
+      width: 36vw;
+    }
+  }
+  
+  .iconCompra {
+    width: 25vw;
+    opacity: 0.6;
+  }
+  
+  .iconCompraOferta {
+    width: 25vw;
+    opacity: 0.6;
+    border: red 1px solid;
+    box-shadow: 0 0 20px red;
+  }
+  
+  .lblPrecio {
+    color: green;
+  }
+  
+  .botonCompra {
+    opacity: 0;
+    width: 100%;
+    transition-duration: 0.5s;
+    border: white 1px solid;
+  }
+  
+  .contenedoriconContacto:hover .botonCompra, .contenedorIconCompra:hover .botonCompra {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  .iconCompra:hover {
+    transition-duration: 1s;
+    width: 25vw;
+    border: green   1px solid;
+    opacity: 1;
+  }
+  
+  .iconCompraOferta:hover {
+    width: 25vw;
+    opacity: 0.6;
+  }
+  
+  @media (max-width: 950px) {
+    .contenedorTextoInicio, .contenedorPresentacionSection {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .contenedorTextoInicio {
+      font-size: 20px;
+    }
+  
+    .contenedorPresentacionSection {
+      font-size: 30px;
+    }
+  
+    .avisoOferta {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .contenedorTextoInicio {
+      font-size: 15px;
+    }
+  
+    .contenedorPresentacionSection {
+      font-size: 30px;
+    }
+  
+    .contenedorTituloSection {
+      font-size: 20px;
+    }
+  
+    .camposContacto {
+      font-size: 13px;
+    }
+  
+    .contenedorIconContacto {
+      display: grid;
+    }
+  
+    .avisoOferta {
+      font-size: 10px;
+    }
+  }
+  
