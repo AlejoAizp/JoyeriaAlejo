@@ -1,0 +1,85 @@
+$colorPrincipal: #FFF5D1;
+@mixin display ($display,$content){
+    display: $display;
+    justify-content: $content;
+}
+.contenedorPresentacionSection {
+    display: grid;
+    flex-direction: row;
+    text-align: center;
+    font-size: 30px;
+    background-color: $colorPrincipal;
+  }
+  .avisoOferta {
+    padding: 0;
+    margin-top: 0;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(222, 81, 99, 1) 0%, rgba(221, 19, 9, 1) 92%);
+    background-position: 50%;
+    z-index: 1;
+    color: black;
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  .formularioContacto {
+    @include display(grid,center );
+  }
+
+  footer {
+    background-color: $colorPrincipal;
+  }
+  
+  .contenedorFooter {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  main, section {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedorVideo {
+    line-height: 0;
+  }
+  
+  .videoJoyas {
+    height: 100%;
+    width: 100%;
+    line-height: 0;
+  }
+  
+  .contenedorTextoInicio {
+    font-size: 2vw;
+    color: black;
+    background-color: $colorPrincipal;
+    z-index: 1;
+    display: grid;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  footer {
+    @include display(grid,center );
+  }
+  
+  .contenedorTituloSection {
+    padding: 0;
+    margin-top: 0;
+    background-color: $colorPrincipal;
+    z-index: 1;
+    @include display(grid,center );
+    font-size: 30px;
+  }
+  
+ 
+  
+  .textoOferta {
+    text-shadow: 1px 1px 2px black;
+  }
+
+ 

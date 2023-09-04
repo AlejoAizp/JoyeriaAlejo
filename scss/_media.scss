@@ -1,0 +1,69 @@
+@media (max-width: 950px) {
+    .contenedorTextoInicio, .contenedorPresentacionSection {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .contenedorTextoInicio {
+      font-size: 20px;
+    }
+  
+    .contenedorPresentacionSection {
+      font-size: 30px;
+    }
+  
+    .avisoOferta {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .contenedorTextoInicio {
+      font-size: 15px;
+    }
+  
+    .contenedorPresentacionSection {
+      font-size: 30px;
+    }
+  
+    .contenedorTituloSection {
+      font-size: 20px;
+    }
+  
+    .camposContacto {
+      font-size: 13px;
+    }
+  
+
+  
+    .avisoOferta {
+      font-size: 10px;
+    }
+
+    .textoOferta{
+        font-size: 10px;
+    }
+    
+  }
+  @media (max-width: 550px) {
+    .contenedorTextoInicio {
+      font-size: 15px;
+    }
+  
+    .contenedorPresentacionSection {
+      font-size: 30px;
+    }
+  
+    .contenedorTituloSection {
+      font-size: 20px;
+    }
+  
+    .camposContacto {
+      font-size: 13px;
+    }
+
+    .contenedorIconContacto {
+        display: grid;
+      }
+}

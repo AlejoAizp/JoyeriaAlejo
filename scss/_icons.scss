@@ -1,0 +1,79 @@
+.winterIcon {
+    width: 3%;
+  }
+
+  .contenedorIconContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  
+  .contenedorIconCompra {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25vw;
+  }
+  
+  .iconContacto1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconContacto2 {
+    width: 17vw;
+    height: 17vw;
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.5s;
+  
+    &:hover {
+      width: 20vw;
+      height: 20vw;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  .iconContactoIg {
+    width: 32vw;
+    transition-duration: 0.5s;
+  
+    &:hover {
+      width: 36vw;
+    }
+  }
+  
+  .iconCompra {
+    width: 25vw;
+    opacity: 0.6;
+  }
+  
+  .iconCompraOferta {
+    width: 25vw;
+    opacity: 0.6;
+    border: red 1px solid;
+    box-shadow: 0 0 20px red;
+  }
+
+  .contenedoriconContacto:hover .botonCompra, .contenedorIconCompra:hover .botonCompra {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  .iconCompra:hover {
+    transition-duration: 1s;
+    width: 25vw;
+    border: green   1px solid;
+    opacity: 1;
+  }
+  
+  .iconCompraOferta:hover {
+    width: 25vw;
+    opacity: 0.6;
+  }
+  
+  
